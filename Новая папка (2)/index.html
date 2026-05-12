@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Escape from Tarkov | Торговцы и репутация</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Заголовок -->
+        <header class="header">
+            <h1 class="header__title">⚙️ TARKOV MARKET</h1>
+            <div class="header__sub">повышай репутацию • выполняй мини-задания • стань легендой</div>
+        </header>
+
+        <!-- Сетка торговцев (динамически заполняется JS) -->
+        <div class="traders-grid" id="tradersGrid"></div>
+
+        <!-- Футер с кнопкой сброса -->
+        <footer class="global-footer">
+            <div class="reset-area">
+                <span class="reset-area__text">✨ Каждое задание +0.05 репутации (макс 6.00) ✨</span>
+                <button class="reset-btn" id="resetAllBtn">♻️ Сбросить всех торговцев</button>
+            </div>
+            <div class="copyright">Escape from Tarkov style | интерактивная репутация</div>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
